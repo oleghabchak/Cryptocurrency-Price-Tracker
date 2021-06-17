@@ -8,4 +8,5 @@ const SearchBar  = ({ ...rest }) => {
     )
 }
 
+
 export default SearchBar;
