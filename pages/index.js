@@ -1,18 +1,20 @@
 import Head from 'next/head';
 import SearchBar from '../components/SearchBar';
 import CoinList from '../components/SearchBar/CoinList';
+import Layout from '../components/Layout';
 
 
 export default function Home({filteredCoins}) {
   return (
-    <div >
-    <Head>
-      <title>Price Tracker</title>
-    </Head>
+    <Layout>
+      <Head>
+        <title>Price Tracker</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-    <SearchBar type='text' placeholder='Search'/>
-    <CoinList filteredCoins={filteredCoins}/>
-    </div>
+      <SearchBar type='text' placeholder='Search'/>
+      <CoinList filteredCoins={filteredCoins}/>
+    </Layout>
   );
 }
 
