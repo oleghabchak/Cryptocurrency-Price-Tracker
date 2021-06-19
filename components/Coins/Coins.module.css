@@ -3,15 +3,18 @@ display: flex;
 justify-content: center;
 }
 
-.coin_row{
+.coin_row {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    height: 180px;
+    height: 80px;
     border-bottom: 1px solid #2e2e2e;
     width: 1000px;
     padding: 0rem 2rem;
+}
+.coin_row p {
+    margin: 10px;
 }
 
 .coin_row:hover{
@@ -44,14 +47,17 @@ justify-content: center;
     text-align: right;
     justify-content: space-between;
     width: 100%;
+    margin-left: 10px;
 }
 
 .coin_price {
     width: 110px;
+    margin: 10px;
 }
 
 .coin_volume {
     width: 155px;
+    margin: 10px;
 }
 
 .coin_marketcap {
