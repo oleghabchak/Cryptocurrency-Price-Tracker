@@ -2,6 +2,7 @@
   "name": "nextjs-crypto-api",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://oleghabchak.github.io/Cryptocurrency-Price-Tracker/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
